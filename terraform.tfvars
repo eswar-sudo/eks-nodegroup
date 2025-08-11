@@ -18,7 +18,7 @@ labels = {
 }
 tags = {
   Environment = "dev"
-  Owner       = "582683034382"
+  Owner       = "spacelift"
 }
 
 environment   = "dev"
