@@ -1,3 +1,7 @@
+provider "aws" {
+region = var.region
+}
+
 # Node group module main.tf
 resource "aws_eks_node_group" "this" {
   cluster_name    = var.cluster_name
