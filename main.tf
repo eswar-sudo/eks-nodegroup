@@ -23,7 +23,7 @@ resource "aws_eks_node_group" "this" {
 
   labels = var.labels
 
-  lifecycle {
-    ignore_changes = all
-  }
+  #lifecycle {
+   # ignore_changes = all
+ # }
 }
