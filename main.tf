@@ -24,6 +24,6 @@ resource "aws_eks_node_group" "this" {
   labels = var.labels
 
   lifecycle {
-    create_before_destroy = true
+    ignore_changes = all
   }
 }
